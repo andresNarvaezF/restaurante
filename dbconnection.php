@@ -7,7 +7,7 @@
 
 	// Check connection
 	if ($sqlconnection->connect_error) {
-    	die("Connection failed: " . $sqlconnection->connect_error);
+    	die("Fallo en la conexion a la base de datos: " . $sqlconnection->connect_error);
 	}
 	
 ?>
